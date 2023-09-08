@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using APLICATION.Services;
 
 namespace APLICATION.Interface
 {
-    internal class IBookReposity
+    public interface IBookReposity
     {
+        void AddBook(BookServices book);
     }
 }

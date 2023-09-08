@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace APLICATION.Interface
 {
-    internal class IbookServise
+       public interface  IBookServise
     {
+        void AddBook (IBookReposity book);  
     }
 }
